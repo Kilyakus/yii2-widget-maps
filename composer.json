@@ -1,0 +1,16 @@
+{
+    "name": "kilyakus/yii2-widget-maps",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kilyakus",
+            "email": "aleksandr.kilyakov@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "kilyakus\\widget\\maps\\": "src"
+        }
+    }
+}
