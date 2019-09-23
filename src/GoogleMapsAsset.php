@@ -1,6 +1,6 @@
 <?php
 
-namespace kilyakus\maps;
+namespace kilyakus\widget\maps;
 
 use yii\web\AssetBundle;
 
