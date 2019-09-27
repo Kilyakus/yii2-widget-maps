@@ -3,12 +3,12 @@
 namespace kilyakus\widget\maps;
 
 use Yii;
-use yii\web\View;
 use yii\base\InvalidConfigException;
 use yii\base\Widget;
+use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\helpers\Json;
-use yii\helpers\ArrayHelper;
+use yii\web\View;
 use kilyakus\modules\models\Setting;
 
 class GoogleMaps extends Widget
