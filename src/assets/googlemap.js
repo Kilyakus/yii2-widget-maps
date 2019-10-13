@@ -223,7 +223,7 @@ function googleMaps(object,options){
                 place = '&latlng=' + getPos(e).lat() + ',' + getPos(e).lng();
             }
 
-            var coordinates = {data:encodeURI(place),latitude:getPos(e).lat(),longitude:getPos(e).lng()};
+            var coordinates = {data:encodeURI(place),latitude:getPos(e).lat(),longitude:getPos(e).lng(),isAjax:true};
 
             pub.responseWaiting('Определяем город');
 
