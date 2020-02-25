@@ -1,3 +1,4 @@
-﻿.gm-style {background-color:#000;background-image:url('img/bg.jpg');background-size:500px;}
-.gm-style .gm-style-iw-d {width:360px!important;}
-.gm-style-cc {display:none;}
+﻿.gm-style{background-color:#000;background-image:url('img/bg.jpg');background-size:500px;}
+.gm-style .gm-style-iw-d{width:360px!important;}
+.gm-style-cc{display:none;}
+.gm-style .gmnoprint:last-child{left:unset!important;right:75px;}
